@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapClass ! AI powered Attendance system</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/logo.png') }}">
+</head>
+<body>
+    
+    <nav class="navbar">
+
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logo.png') }}" style="height: 32px" alt="SnapClass Logo">
+            <div class="logo-text">SnapClass</div>
+        </div>
+
+        <div class="nav-link">
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Journey</a>
+            <a href="#">Tech Stack</a>
+        </div>
+
+        <div class="nav-cta">
+            <a href="https://snapclass-ai-based-attendance-system.streamlit.app/" class="btn-pill">
+                Start AI Attendance 
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg>
+            </a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="badge">
+            Welcome to SnapClass
+        </div>
+
+        <h1>
+            AI powered <br>Attendance <span>System</span>
+        </h1>
+
+        <p>Revolutionizing the classroom with next-gen computer vision and voice biometrics. Trusted by educators for speed, accuracy, and security.</p>
+
+        <div class="hero-actions">
+            <a href="https://snapclass-ai-based-attendance-system.streamlit.app/" class="btn-ctn">
+                Start AI Attendance 
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg>
+            </a>
+
+            <a href="journey" class="link-action"> Explore Journey</a>
+
+
+        </div>
+
+        <div class="floating-card card-left">
+            <div class="card-img">
+                <img src="{{ url_for('static', filename='img/demo/Screenshot 2026-05-01 155546.png') }}" alt="landing img 1">
+            </div>
+        </div>
+
+        <div class="floating-card card-right">
+            <div class="card-img">
+                <img src="{{ url_for('static', filename='img/demo/Screenshot 2026-05-01 154846.png') }}" alt="landing img 2">
+            </div>
+        </div>
+
+
+    </header>
+
+
+</body>
+</html>
